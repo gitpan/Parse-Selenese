@@ -1,0 +1,53 @@
+NAME
+    Parse::Selenese - Parser for Selenese
+
+VERSION
+    version 0.002
+
+SYNOPSIS
+      use Parse::Selenese;
+
+DESCRIPTION
+    WWW::Selenium::Selenese is
+
+  Functions
+    "Parse::Selenese::parse($file_name|$content|%args)"
+        Return a Parse::Selenese::TestCase, Parse::Selenese::TestSuite or
+        undef if unable to parse the file name or content.
+
+NAME
+    Parse::Selenese -
+
+AUTHOR
+    Theodore Robert Campbell Jr. <trcjr@cpan.org>
+
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SUPPORT
+  Bugs / Feature Requests
+    Please report any bugs or feature requests by email to
+    "bug-parse-selenese at rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese>. You
+    will be automatically notified of any progress on the request by the
+    system.
+
+  Source Code
+    This is open source software. The code repository is available for
+    public review and contribution under the terms of the license.
+
+    <http://github.com/trcjr/Parse-Selenese>
+
+      git clone http://github.com/trcjr/Parse-Selenese
+
+AUTHOR
+    Theodore Robert Campbell Jr <trcjr@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Theodore Robert Campbell Jr.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

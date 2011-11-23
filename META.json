@@ -4,7 +4,7 @@
       "Theodore Robert Campbell Jr <trcjr@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -45,9 +45,7 @@
             "Text::MicroTemplate" : 0,
             "Try::Tiny" : 0,
             "open" : 0,
-            "perl" : "5.010",
-            "strict" : 0,
-            "warnings" : 0
+            "perl" : "5.010"
          }
       },
       "test" : {
@@ -57,6 +55,7 @@
             "File::Find" : 0,
             "File::Spec" : 0,
             "FindBin" : 0,
+            "Path::Class" : 0,
             "Test::Class::Load" : 0,
             "Test::Class::Most" : 0,
             "Test::Differences" : 0,
@@ -66,26 +65,28 @@
             "Test::WWW::Selenium" : 0,
             "Time::HiRes" : 0,
             "YAML" : 0,
-            "utf8" : 0
+            "strict" : 0,
+            "utf8" : 0,
+            "warnings" : 0
          }
       }
    },
    "provides" : {
       "Parse::Selenese" : {
          "file" : "lib/Parse/Selenese.pm",
-         "version" : "0.002"
+         "version" : "0.004"
       },
       "Parse::Selenese::Command" : {
          "file" : "lib/Parse/Selenese/Command.pm",
-         "version" : "0.002"
+         "version" : "0.004"
       },
       "Parse::Selenese::TestCase" : {
          "file" : "lib/Parse/Selenese/TestCase.pm",
-         "version" : "0.002"
+         "version" : "0.004"
       },
       "Parse::Selenese::TestSuite" : {
          "file" : "lib/Parse/Selenese/TestSuite.pm",
-         "version" : "0.002"
+         "version" : "0.004"
       }
    },
    "release_status" : "stable",
@@ -94,13 +95,13 @@
          "mailto" : "bug-parse-selenese at rt.cpan.org",
          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese"
       },
-      "homepage" : "http://github.com/trcjr/Parse-Selenese",
+      "homepage" : "https://github.com/trcjr/Parse-Selenese",
       "repository" : {
          "type" : "git",
-         "url" : "http://github.com/trcjr/Parse-Selenese",
-         "web" : "http://github.com/trcjr/Parse-Selenese"
+         "url" : "https://github.com/trcjr/Parse-Selenese.git",
+         "web" : "https://github.com/trcjr/Parse-Selenese"
       }
    },
-   "version" : "0.002"
+   "version" : "0.004"
 }
 

@@ -17,6 +17,7 @@ my %WriteMakefileArgs = (
     "File::Find" => 0,
     "File::Spec" => 0,
     "FindBin" => 0,
+    "Path::Class" => 0,
     "Test::Class::Load" => 0,
     "Test::Class::Most" => 0,
     "Test::Differences" => 0,
@@ -26,7 +27,9 @@ my %WriteMakefileArgs = (
     "Test::WWW::Selenium" => 0,
     "Time::HiRes" => 0,
     "YAML" => 0,
-    "utf8" => 0
+    "strict" => 0,
+    "utf8" => 0,
+    "warnings" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -48,11 +51,9 @@ my %WriteMakefileArgs = (
     "Template" => 0,
     "Text::MicroTemplate" => 0,
     "Try::Tiny" => 0,
-    "open" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "open" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/*.t"
   }

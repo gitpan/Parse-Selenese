@@ -1,12 +1,9 @@
 # ABSTRACT: Parser for Selenese
-use strict;
-use warnings;
 package Parse::Selenese;
-{
-  $Parse::Selenese::VERSION = '0.002';
-}
 use Moose;
 use Parse::Selenese::TestCase;
+
+our $VERSION = '0.004'; # VERSION
 
 sub parse {
     Parse::Selenese::TestCase->new(shift);
@@ -24,7 +21,7 @@ Parse::Selenese - Parser for Selenese
 
 =head1 VERSION
 
-version 0.002
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -75,9 +72,9 @@ progress on the request by the system.
 This is open source software.  The code repository is available for
 public review and contribution under the terms of the license.
 
-L<http://github.com/trcjr/Parse-Selenese>
+L<https://github.com/trcjr/Parse-Selenese>
 
-  git clone http://github.com/trcjr/Parse-Selenese
+  git clone https://github.com/trcjr/Parse-Selenese.git
 
 =head1 AUTHOR
 

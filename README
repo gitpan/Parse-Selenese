@@ -2,7 +2,7 @@ NAME
     Parse::Selenese - Parser for Selenese
 
 VERSION
-    version 0.002
+    version 0.004
 
 SYNOPSIS
       use Parse::Selenese;
@@ -38,9 +38,9 @@ SUPPORT
     This is open source software. The code repository is available for
     public review and contribution under the terms of the license.
 
-    <http://github.com/trcjr/Parse-Selenese>
+    <https://github.com/trcjr/Parse-Selenese>
 
-      git clone http://github.com/trcjr/Parse-Selenese
+      git clone https://github.com/trcjr/Parse-Selenese.git
 
 AUTHOR
     Theodore Robert Campbell Jr <trcjr@cpan.org>

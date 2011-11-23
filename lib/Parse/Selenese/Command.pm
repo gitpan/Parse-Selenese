@@ -1,10 +1,5 @@
 # ABSTRACT: A Selenese Command
-use strict;
-use warnings;
 package Parse::Selenese::Command;
-{
-  $Parse::Selenese::Command::VERSION = '0.002';
-}
 use Moose;
 use MooseX::AttributeShortcuts;
 use Try::Tiny;
@@ -12,6 +7,8 @@ use Parse::Selenese::TestCase;
 use Carp ();
 use HTML::TreeBuilder;
 use Template;
+
+our $VERSION = '0.004'; # VERSION
 
 has 'values' => (
     isa      => 'ArrayRef',
@@ -444,7 +441,7 @@ Parse::Selenese::Command - A Selenese Command
 
 =head1 VERSION
 
-version 0.002
+version 0.004
 
 =head1 SYNOPSIS
 

@@ -1,15 +1,12 @@
 # ABSTRACT: A Selenese Test Case
-use strict;
-use warnings;
 package Parse::Selenese::TestSuite;
-{
-  $Parse::Selenese::TestSuite::VERSION = '0.002';
-}
 use Moose;
 use Carp ();
 use File::Basename;
 use HTML::TreeBuilder;
 use Parse::Selenese::TestCase;
+
+our $VERSION = '0.004'; # VERSION
 
 has 'cases' => (
     isa      => 'ArrayRef',
@@ -102,7 +99,7 @@ Parse::Selenese::TestSuite - A Selenese Test Case
 
 =head1 VERSION
 
-version 0.002
+version 0.004
 
 =head1 SYNOPSIS
 

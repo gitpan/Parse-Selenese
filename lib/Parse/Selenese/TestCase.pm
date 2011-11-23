@@ -1,12 +1,5 @@
 # ABSTRACT: A Selenese Test Case
-use strict;
-use warnings;
 package Parse::Selenese::TestCase;
-{
-  $Parse::Selenese::TestCase::VERSION = '0.002';
-}
-use strict;
-use warnings;
 use Moose;
 use Carp ();
 use open ':encoding(utf8)';
@@ -22,6 +15,8 @@ use Template;
 use File::Temp;
 use HTML::Element;
 use MooseX::AttributeShortcuts;
+
+our $VERSION = '0.004'; # VERSION
 
 my ( $_test_mt, $_selenese_testcase_template, $_selenese_testcase_template2 );
 
@@ -309,7 +304,7 @@ Parse::Selenese::TestCase - A Selenese Test Case
 
 =head1 VERSION
 
-version 0.002
+version 0.004
 
 =head1 SYNOPSIS
 

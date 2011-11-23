@@ -2,13 +2,14 @@ NAME
     Parse::Selenese - Parser for Selenese
 
 VERSION
-    version 0.004
+    version 0.005
 
 SYNOPSIS
       use Parse::Selenese;
 
 DESCRIPTION
-    WWW::Selenium::Selenese is
+    Parse::Selenese makes it easy to parse Selenium Test Suites and Test
+    Cases from their HTML format into Perl.
 
   Functions
     "Parse::Selenese::parse($file_name|$content|%args)"
@@ -16,7 +17,7 @@ DESCRIPTION
         undef if unable to parse the file name or content.
 
 NAME
-    Parse::Selenese -
+    Parse::Selenese - Easy Selenium Test Suite and Test Case parsing.
 
 AUTHOR
     Theodore Robert Campbell Jr. <trcjr@cpan.org>

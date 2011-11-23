@@ -3,7 +3,7 @@ package Parse::Selenese;
 use Moose;
 use Parse::Selenese::TestCase;
 
-our $VERSION = '0.004'; # VERSION
+our $VERSION = '0.005'; # VERSION
 
 sub parse {
     Parse::Selenese::TestCase->new(shift);
@@ -21,7 +21,7 @@ Parse::Selenese - Parser for Selenese
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 
@@ -29,7 +29,8 @@ version 0.004
 
 =head1 DESCRIPTION
 
-WWW::Selenium::Selenese is
+Parse::Selenese makes it easy to parse Selenium Test Suites and Test Cases from
+their HTML format into Perl.
 
 =head2 Functions
 
@@ -44,7 +45,7 @@ unable to parse the file name or content.
 
 =head1 NAME
 
-Parse::Selenese -
+Parse::Selenese - Easy Selenium Test Suite and Test Case parsing.
 
 =head1 AUTHOR
 

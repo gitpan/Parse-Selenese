@@ -5,7 +5,6 @@ META.json
 META.yml
 Makefile.PL
 README
-README.md
 dist.ini
 lib/Parse/Selenese.pm
 lib/Parse/Selenese/Command.pm

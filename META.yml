@@ -41,16 +41,16 @@ no_index:
 provides:
   Parse::Selenese:
     file: lib/Parse/Selenese.pm
-    version: 0.004
+    version: 0.005
   Parse::Selenese::Command:
     file: lib/Parse/Selenese/Command.pm
-    version: 0.004
+    version: 0.005
   Parse::Selenese::TestCase:
     file: lib/Parse/Selenese/TestCase.pm
-    version: 0.004
+    version: 0.005
   Parse::Selenese::TestSuite:
     file: lib/Parse/Selenese/TestSuite.pm
-    version: 0.004
+    version: 0.005
 requires:
   Carp: 0
   Cwd: 0
@@ -70,4 +70,4 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese
   homepage: https://github.com/trcjr/Parse-Selenese
   repository: https://github.com/trcjr/Parse-Selenese.git
-version: 0.004
+version: 0.005

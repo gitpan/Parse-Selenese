@@ -6,7 +6,7 @@ use File::Basename;
 use HTML::TreeBuilder;
 use Parse::Selenese::TestCase;
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 has 'cases' => (
     isa      => 'ArrayRef',
@@ -99,7 +99,7 @@ Parse::Selenese::TestSuite - A Selenese Test Case
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 

@@ -24,7 +24,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -41,16 +41,16 @@ no_index:
 provides:
   Parse::Selenese:
     file: lib/Parse/Selenese.pm
-    version: 0.005
+    version: 0.006
   Parse::Selenese::Command:
     file: lib/Parse/Selenese/Command.pm
-    version: 0.005
+    version: 0.006
   Parse::Selenese::TestCase:
     file: lib/Parse/Selenese/TestCase.pm
-    version: 0.005
+    version: 0.006
   Parse::Selenese::TestSuite:
     file: lib/Parse/Selenese/TestSuite.pm
-    version: 0.005
+    version: 0.006
 requires:
   Carp: 0
   Cwd: 0
@@ -65,9 +65,9 @@ requires:
   Text::MicroTemplate: 0
   Try::Tiny: 0
   open: 0
-  perl: 5.010
+  perl: 5.008
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese
-  homepage: https://github.com/trcjr/Parse-Selenese
-  repository: https://github.com/trcjr/Parse-Selenese.git
-version: 0.005
+  homepage: http://github.com/trcjr/Parse-Selenese
+  repository: http://github.com/trcjr/Parse-Selenese
+version: 0.006

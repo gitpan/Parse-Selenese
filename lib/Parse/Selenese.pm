@@ -3,7 +3,7 @@ package Parse::Selenese;
 use Moose;
 use Parse::Selenese::TestCase;
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 sub parse {
     Parse::Selenese::TestCase->new(shift);
@@ -21,7 +21,7 @@ Parse::Selenese - Parser for Selenese
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
@@ -64,18 +64,18 @@ it under the same terms as Perl itself.
 
 =head2 Bugs / Feature Requests
 
-Please report any bugs or feature requests by email to C<bug-parse-selenese at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese>. You will be automatically notified of any
-progress on the request by the system.
+Please report any bugs or feature requests through the issue tracker
+at L<http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese>.
+You will be notified automatically of any progress on your issue.
 
 =head2 Source Code
 
 This is open source software.  The code repository is available for
 public review and contribution under the terms of the license.
 
-L<https://github.com/trcjr/Parse-Selenese>
+L<http://github.com/trcjr/Parse-Selenese>
 
-  git clone https://github.com/trcjr/Parse-Selenese.git
+  git clone http://github.com/trcjr/Parse-Selenese
 
 =head1 AUTHOR
 

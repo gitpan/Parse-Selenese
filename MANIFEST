@@ -33,6 +33,8 @@ t/lib/Tests/Parse/Selenese/Base.pm
 t/lib/Tests/Parse/Selenese/Test.pm
 t/lib/Tests/Parse/Selenese/TestCase.pm
 t/lib/Tests/Parse/Selenese/TestSuite.pm
+xt/author/critic.t
+xt/author/pod-spell.t
 xt/perlcriticrc
 xt/release/01_podspell.t
 xt/release/02_perlcritic.t

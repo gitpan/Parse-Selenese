@@ -2,7 +2,7 @@ NAME
     Parse::Selenese - Parser for Selenese
 
 VERSION
-    version 0.005
+    version 0.006
 
 SYNOPSIS
       use Parse::Selenese;
@@ -29,19 +29,17 @@ LICENSE
 
 SUPPORT
   Bugs / Feature Requests
-    Please report any bugs or feature requests by email to
-    "bug-parse-selenese at rt.cpan.org", or through the web interface at
+    Please report any bugs or feature requests through the issue tracker at
     <http://rt.cpan.org/Public/Dist/Display.html?Name=Parse-Selenese>. You
-    will be automatically notified of any progress on the request by the
-    system.
+    will be notified automatically of any progress on your issue.
 
   Source Code
     This is open source software. The code repository is available for
     public review and contribution under the terms of the license.
 
-    <https://github.com/trcjr/Parse-Selenese>
+    <http://github.com/trcjr/Parse-Selenese>
 
-      git clone https://github.com/trcjr/Parse-Selenese.git
+      git clone http://github.com/trcjr/Parse-Selenese
 
 AUTHOR
     Theodore Robert Campbell Jr <trcjr@cpan.org>

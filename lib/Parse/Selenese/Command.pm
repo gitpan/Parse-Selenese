@@ -8,7 +8,7 @@ use Carp ();
 use HTML::TreeBuilder;
 use Template;
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 has 'values' => (
     isa      => 'ArrayRef',
@@ -397,7 +397,7 @@ sub _make_args {
         $str .= join( ', ', map { _quote($_) } @{ $code->{force_args} } );
     }
     else {
-        my @args = map { $args[$_] // '' } ( 0 .. $code->{args} - 1 );
+        my @args = map { defined $args[$_] ? $args[$_] : '' } ( 0 .. $code->{args} - 1 );
         my @a;
         foreach my $arg (@args) {
             $arg =~ s/^exact://;
@@ -441,7 +441,7 @@ Parse::Selenese::Command - A Selenese Command
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 

@@ -16,7 +16,7 @@ use File::Temp;
 use HTML::Element;
 use MooseX::AttributeShortcuts;
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 my ( $_test_mt, $_selenese_testcase_template, $_selenese_testcase_template2 );
 
@@ -304,7 +304,7 @@ Parse::Selenese::TestCase - A Selenese Test Case
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
